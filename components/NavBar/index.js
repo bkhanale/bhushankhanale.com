@@ -11,7 +11,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="p-4 shadow-md">
+    <nav className="px-4 shadow-md">
       <div className="flex flex-wrap items-center justify-between container mx-auto">
         <div className="">
           <Link href="/">

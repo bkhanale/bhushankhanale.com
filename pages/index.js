@@ -11,18 +11,22 @@ import IconLink from '../components/IconLink';
 
 const handles = [
   {
+    key: 1,
     icon: faGithub,
     link: 'https://github.com/bkhanale',
   },
   {
+    key: 2,
     icon: faLinkedin,
     link: 'https://linkedin.com/in/bhushan-khanale',
   },
   {
+    key: 3,
     icon: faTwitter,
     link: 'https://twitter.com/BhushanKhanale',
   },
   {
+    key: 4,
     icon: faEnvelope,
     link: 'mailto:hello@bhushankhanale.com',
   },
@@ -55,7 +59,12 @@ export default function Home() {
       </div>
       <div className="mt-5 flex justify-center">
         {handles.map((icon) => (
-          <IconLink className="mr-3" icon={icon.icon} link={icon.link} />
+          <IconLink
+            key={icon.key}
+            className="mr-3"
+            icon={icon.icon}
+            link={icon.link}
+          />
         ))}
       </div>
     </Layout>
