@@ -11,11 +11,11 @@ const About = () => {
           <p>Hey, this is Bhushan. Glad you wanted to know more about me.</p>
           <br />
           <p>
-            I&apos;m currently working as a Software Engineer at Turtlemint
-            building a scalable and reliable platform for Turtlemint to share
-            their content to digital partners across India. I also contribute to
-            open-source projects and was recently a GSoC student for the coala
-            project.
+            I&apos;m currently working as a Software Engineer at BrowserStack. I
+            was previously working at Turtlemint building a scalable and
+            reliable platform to share their content to digital partners across
+            India. I also contribute to open-source projects and was recently a
+            GSoC student for the coala project.
           </p>
           <br />
           <p>
