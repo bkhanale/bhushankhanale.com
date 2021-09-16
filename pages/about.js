@@ -22,6 +22,10 @@ const About = () => {
             Feel free to reach me on any of my social media handles. Also, if
             you have some time do have a look ay my blog too ;)
           </p>
+          <p>
+            I just wanted to test something so this is a{' '}
+            <a href="https://abhishalya.tech">redirect</a>.
+          </p>
         </div>
       </div>
     </Layout>
