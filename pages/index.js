@@ -51,6 +51,8 @@ export default function Home() {
               })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
               ga('create', 'UA-165070744-1', 'bhushankhanale.com');
+              ga('require', 'linker');
+              ga('linker:autoLink', ['abhishalya.tech']);
               ga('create', 'UA-165070744-2', 'bhushankhanale.com', {'name': 'rollup', 'allowLinker': true, 'cookieName': 'rollupGA'})
               ga('send', 'pageview');
             `,
