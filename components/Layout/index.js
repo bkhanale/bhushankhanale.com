@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
               ga('linker:autoLink', ['abhishalya.tech']);
               ga('create', 'UA-165070744-2', 'bhushankhanale.com', {'name': 'rollup', 'allowLinker': true, 'cookieName': 'rollupGA'});
               ga('send', 'pageview');
+              ga('rollup.send', 'pageview');
             `,
           }}
         />
