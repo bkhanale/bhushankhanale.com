@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         className="flex justify-center gap-6"
       >
         <SocialLink
-          href="https://linkedin.com/in/bhushankhanale"
+          href="https://linkedin.com/in/bhushan-khanale"
           icon={<Linkedin size={24} />}
           label="LinkedIn"
         />
